@@ -59,6 +59,16 @@ changelog v4.6.0
 - Bug Fixes
 
 	- Vote weight tracking (RES tracking upvotes/downvotes you give to each user) works again (thanks @matheod)
+	- "Ignore user" fixes (thanks @githue)
+        - Works with new search layout
+		- No longer hides inbox messages
+		- No longer hides comments in mod mail
+		- No longer hides links in mod queue (mod/about/modqueue)
+		- Icon button to show content
+		- Added an option to include or exclude the 'show anyway' link.
+		- hardIgnore now removes childless comments.
+		- Added notification when adding someone to ignore list
+		- Housekeeping
 	- Updated styling of certain elements and pages in nightmode (code blocks, quotes, etc..) to work with reddit's new markdown. (thanks @gavin19)
 	- Updated nightmode styling for lots of things, including reddit's new search layout (thanks @githue)
 	- rts and save-RES buttons and some other things should now work with newly loaded comments (thanks @erikdesjardins)
