@@ -3063,5 +3063,29 @@
 
     "gfycatUseMobileGfycatDesc": {
         "message": "Use mobile (lower resolution) gifs from gfycat."
+    },
+
+    "profileNavigatorFadeSpeedDesc": {
+      "message": "Fade animation's speed (in seconds)."
+    },
+
+    "resPenaltyBoxName": {
+        "message": "RES Feature Throttle"
+    },
+
+    "resPenaltyBoxDesc": {
+        "message": "Automatically delay or disable RES features which go unused."
+    },
+
+    "resPenaltyBoxDelayFeaturesDesc": {
+        "message": "Throttle showing features which have a high penalty."
+    },
+
+    "resPenaltyBoxSuspendFeaturesDesc": {
+        "message": "Turn off features which exceed the maximum penalty."
+    },
+
+    "resPenaltyBoxFeaturesDesc": {
+        "message": "Track usage of different features."
     }
 }
