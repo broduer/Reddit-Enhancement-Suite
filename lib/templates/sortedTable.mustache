@@ -1,0 +1,25 @@
+<table>
+	<thead>
+		<tr>
+			{{#columns}}
+				<th>
+					{{name}}
+				</th>
+			{{/columns}}
+		</tr>
+	</thead>
+	<tbody>
+		{{#rows}}
+			<tr>
+				{{#items}}
+					<td>{{value}}</td>
+				{{/items}}
+			</tr>
+		{{/rows}}
+		{{^rows}}
+			<tr><td colspan="{{columns.length}}">
+				there seems to be nothing here
+			</td></tr>
+		{{/rows}}
+	</tbody>
+</table>
