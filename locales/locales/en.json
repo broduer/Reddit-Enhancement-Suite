@@ -64,6 +64,9 @@
         "message": "module ID"
     },
 
+    "moduleName": {
+        "message": "module name"
+    },
 
     "optionKey": {
         "message": "option ID"
@@ -187,6 +190,36 @@
 
     "accountSwitcherSimpleArrow": {
         "message": "simple arrow"
+    },
+
+    "actionLogName": {
+        "message": "Action Log"
+    },
+
+    "actionLogDesc": {
+        "message": "Notification center logging recent actions."
+    },
+
+    "actionLogGotoDashboardDesc": {
+        "message": "See the list of recent items."
+    },
+
+    "actionLogClearLogDesc": {
+        "message": "Clear the list of all recent items."
+    },
+
+    "actionLogActionTypesActionID": {
+        "message": "Action ID"
+    },
+
+    "actionLogActionActionTypesMonitoring": {
+        "message": "Monitoring",
+        "description": "Or storing log items"
+    },
+
+    "actionLogActionTypesExpiresAfter": {
+        "message": "Item expires after",
+        "description": "a certain number of seconds"
     },
 
     "announcementsName": {
@@ -3121,5 +3154,5 @@
     "penaltyBoxFeaturesPenalty": {
         "message": "penalty",
         "description": "How heavily the feature is penalized (0-100)"
-    },
+    }
 }
